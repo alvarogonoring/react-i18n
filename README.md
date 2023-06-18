@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+<h2>Projeto i18n - Autoglass</h2>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4>Introdução</h4>
 
-## Available Scripts
+Este projeto é um clone do site da empresa brasileira Autoglass. A principal funcionalidade adicionada foi a tradução do site, que originalmente estava completamente em português e precisava ser adaptado para o espanhol.
 
-In the project directory, you can run:
+Para implementar essa funcionalidade, utilizei as funcionalidades do TypeScript para criar um tradutor que mapeia as chaves de tradução em português para seu equivalente em espanhol. Utilizei o operador keyof para acessá-las dinamicamente.
 
-### `npm start`
+A aplicação foi desenvolvida como uma Single Page Application (SPA) utilizando as tecnologias HTML, CSS, TypeScript e React.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h4>Instalação</h4>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Antes de começar, verifique se você possui o Node.js instalado em sua máquina. Caso não tenha, faça o download em https://nodejs.org/en/.
 
-### `npm test`
+Para instalar o projeto, basta executar os seguintes comandos no terminal:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*__git clone__ https://github.com/ailetmo/projeto-i18n-autoglass*
 
-### `npm run build`
+*__cd__ projeto-i18n-autoglass*
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+*__npm install__ ou __npm i__*
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Isso irá clonar o repositório do Github em sua máquina e instalar todas as dependências necessárias listadas no arquivo package.json.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h4>Execução</h4>
 
-### `npm run eject`
+Para iniciar a aplicação, basta executar o seguinte comando no terminal:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+*__npm start__*
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Isso irá iniciar o servidor local na porta 3000 e abrir o site em seu navegador padrão.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<h4>Observações</h4>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto possui fins educacionais e não tem relação direta com a empresa Autoglass. Qualquer informação aqui presente é para fins ilustrativos e não deve ser considerada como oficial ou atualizada.
