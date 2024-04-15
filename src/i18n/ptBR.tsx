@@ -5,7 +5,7 @@ export class LanguageKeysPtBR {
     public INSURED_BROKER = 'SOU SEGURADO/CORRETOR';
     public SHOPKEEPER_WORKSHOP = 'SOU LOJISTA/OFICINA';
     public ISSUE_INVOICE = 'EMISSÃO NFe';
-    public AUTOGLASS_POLITICS_FOOTER_MESSAGE = 'Conheça as Políticas de Proteção de Dados Pessoais e Compliance da AUTOGLASS.';
+    public AUTOGLASS_POLITICS_FOOTER_MESSAGE = 'Conheça as Políticas de Proteção de Dados Pessoais e Compliance.';
     public PERSONAL_DATA_PROTECTION = 'Proteção de Dados Pessoais';
     public STORES = 'Lojas';
     public CONTACT_US = 'Fale Conosco';
@@ -23,8 +23,8 @@ export class LanguageKeysPtBR {
     public STORES_ALL_OVER = 'LOJAS EM TODO BRASIL';
     public FIND_CLOSEST = 'LOCALIZE A MAIS PRÓXIMA DE VOCÊ';
     public WHAT_ARE_YOU_LOOKING_FOR = 'O QUE VOCÊ PROCURA?';
-    public FOLLOW_AUTOGLASS = 'SIGA A AUTOGLASS NAS REDES SOCIAIS:';
-    public TALK_TO_AUTOGLASS = 'FALE COM A AUTOGLASS:';
+    public FOLLOW_AUTOGLASS = 'SIGA A GENTE NAS REDES SOCIAIS:';
+    public TALK_TO_AUTOGLASS = 'FALE CONOSCO:';
     public INSURED = 'Segurado';
     public DEALER = 'Revendedor';
     public WORKSHOP = 'Oficina';

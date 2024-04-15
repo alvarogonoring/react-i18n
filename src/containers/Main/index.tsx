@@ -35,8 +35,9 @@ export default function Main() {
     return (
         <div>
             <div className="communication-channels-container">
-                <div style={{ marginRight: 150, cursor: 'pointer' }}>
-                    <img src="https://logospng.org/download/autoglass/logo-autoglass-1024.png" style={{ height: 100, width: 130 }} />
+                <div style={{ marginRight: 150, cursor: 'pointer', display: 'flex', flexDirection: 'column' }}>
+                    <img src="https://png.pngtree.com/png-vector/20220711/ourmid/pngtree-automotive-car-logo-png-image_5837187.png" style={{ height: 100, width: 130 }} />
+                    <span style={{fontSize: 14, color: 'black', fontWeight: 'bold'}}>COMPANY NAME</span>
                 </div>
                 <div className="route-container">
                     {

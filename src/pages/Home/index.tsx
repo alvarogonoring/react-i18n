@@ -116,7 +116,7 @@ export default function Home() {
                         <img src={BrasilMap} style={{ height: 45, width: 45 }} />
                     </div>
                     <div style={{ marginBottom: 20 }}>
-                        <input type="text" className="input" placeholder="Ex. Autoglass Belo Horizonte" />
+                        <input type="text" className="input" placeholder="Ex. Loja em Belo Horizonte" />
                     </div>
                     <button className="track-button">
                         LOCALIZAR

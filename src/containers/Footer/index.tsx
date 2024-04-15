@@ -18,7 +18,7 @@ export default function Footer() {
                         <a className="link" style={{ color: '#0288D1' }}>{translate('ISSUE_INVOICE')}</a>
                     </div>
                     <div style={{ marginLeft: 250 }}>
-                        <span style={{ fontSize: 14, color: '#01579b' }}>AUTOGLASS 2020 ©</span>
+                        <span style={{ fontSize: 14, color: '#01579b' }}>Inc. 2020 ©</span>
                     </div>
                 </div>
             </div>

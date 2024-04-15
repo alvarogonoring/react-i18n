@@ -5,7 +5,7 @@ export class LanguageKeysEs {
     public INSURED_BROKER = 'SOY ASEGURADO/CORREDOR';
     public SHOPKEEPER_WORKSHOP = 'SOY TENDERO/TALLER';
     public ISSUE_INVOICE = 'EMITIR FACTURA';
-    public AUTOGLASS_POLITICS_FOOTER_MESSAGE = 'Infórmese de las Políticas de Protección y Cumplimiento de Datos Personales de AUTOGLASS.';
+    public AUTOGLASS_POLITICS_FOOTER_MESSAGE = 'Infórmese de las Políticas de Protección y Cumplimiento de Datos Personales.';
     public PERSONAL_DATA_PROTECTION = 'Protección de datos personales';
     public STORES = 'Tiendas';
     public CONTACT_US = 'Hable con nosotros';
@@ -23,8 +23,8 @@ export class LanguageKeysEs {
     public STORES_ALL_OVER = 'TIENDAS EN TODO BRASIL';
     public FIND_CLOSEST = 'ENCUENTRA EL MAS CERCANO A TI';
     public WHAT_ARE_YOU_LOOKING_FOR = 'QUÉ BUSCAS?';
-    public FOLLOW_AUTOGLASS = 'SIGA A AUTOGLASS EN LAS REDES SOCIALES:';
-    public TALK_TO_AUTOGLASS = 'HABLA CON AUTOGLASS:';
+    public FOLLOW_AUTOGLASS = 'SÍGUENOS EN LAS REDES SOCIALES:';
+    public TALK_TO_AUTOGLASS = 'HÁBLANOS:';
     public INSURED = 'Asegurado';
     public DEALER = 'Distribuidor';
     public WORKSHOP = 'Taller';
