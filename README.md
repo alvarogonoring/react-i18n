@@ -1,35 +1,31 @@
-<h2>Projeto i18n - Autoglass</h2>
+# React i18n Application
 
-<h4>Introdução</h4>
+A React application based on [Autoglass website](https://www.autoglass.com.br/) applying a translator with React Context.
 
-Este projeto é um clone do site da empresa brasileira Autoglass. A principal funcionalidade adicionada foi a tradução do site, que originalmente estava completamente em português e precisava ser adaptado para o espanhol.
+## Prerequisites
 
-Para implementar essa funcionalidade, utilizei as funcionalidades do TypeScript para criar um tradutor que mapeia as chaves de tradução em português para seu equivalente em espanhol. Utilizei o operador keyof para acessá-las dinamicamente.
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
-A aplicação foi desenvolvida como uma Single Page Application (SPA) utilizando as tecnologias HTML, CSS, TypeScript e React.
+## Installation
 
-<h4>Instalação</h4>
+1. Clone the repository:
 
-Antes de começar, verifique se você possui o Node.js instalado em sua máquina. Caso não tenha, faça o download em https://nodejs.org/en/.
+```bash
+git clone https://github.com/alvarogonoring/react-i18n.git
+cd react-i18n
+```
 
-Para instalar o projeto, basta executar os seguintes comandos no terminal:
+2. Install dependencies:
 
-*__git clone__ https://github.com/ailetmo/projeto-i18n-autoglass*
+```bash
+npm install
+```
 
-*__cd__ projeto-i18n-autoglass*
+3. Usage:
 
-*__npm install__ ou __npm i__*
+```bash
+To start the development server, run:
+npm run start
+```
 
-Isso irá clonar o repositório do Github em sua máquina e instalar todas as dependências necessárias listadas no arquivo package.json.
-
-<h4>Execução</h4>
-
-Para iniciar a aplicação, basta executar o seguinte comando no terminal:
-
-*__npm start__*
-
-Isso irá iniciar o servidor local na porta 3000 e abrir o site em seu navegador padrão.
-
-<h4>Observações</h4>
-
-Este projeto possui fins educacionais e não tem relação direta com a empresa Autoglass. Qualquer informação aqui presente é para fins ilustrativos e não deve ser considerada como oficial ou atualizada.
+This will start the React project at http://localhost:3000.
